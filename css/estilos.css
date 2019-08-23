@@ -21,3 +21,20 @@ body{
  .container__parrafo{
      align-self: flex-end;
  }
+ #cabecera
+ {
+     background: rgb(112, 111, 95);
+     box-shadow: 0px 7px 20px 0px rgba(255, 20, 235, 0.5);
+     color: rgb(236, 226, 234);
+     font-weight: bold;
+     margin: 0;
+     padding: .5em;
+ }
+ #cabecera #tagline 
+ {
+     width: 70%;
+     padding: 0;
+     text-align: left;
+     border: 1px solid rgb(173, 166, 166);
+     margin: 0 auto;
+ }
