@@ -1,0 +1,19 @@
+body{
+    display: flex;    
+    flex-direction:column;
+    align-items:center;   
+   color: rgb(20, 255, 110);
+   background: rgb(43, 42, 42);
+   margin: 0;
+   padding: 0;
+}
+ #container{
+     width: 70%;
+     padding: 1em;
+     text-align:left;
+     border: 20px solid rgb(65, 62, 62);
+     border-radius: 5px;
+ }
+ #container h1{
+     font-size:30px;
+ }
