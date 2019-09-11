@@ -1,0 +1,8 @@
+/vendor/
+/logs/*
+!/logs/README.md
+/development/php_old/*
+/development/old_view.zip
+/development/view/node_modules/*
+/development/view/build/*
+/sigem.zip
