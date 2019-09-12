@@ -30,4 +30,6 @@ Hecho con:
   - base de datos: /src/config/database.php
   - routes: /src/routes/
 
-* React v16, con redux /development/view/
+* React v16 /development/view/
+  - redux, middlewares
+  - routes
