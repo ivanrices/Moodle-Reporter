@@ -74,14 +74,14 @@ class Dashboard extends React.Component {
                                 <h6 className='mb-4'>Profesores</h6>
                                 <div className="row d-flex align-items-center">
                                     <div className="col-5">
-                                        <h1 className="text-center f-w-300 d-flex justify-content-center m-b-0 ">
+                                        <h2 className="text-center f-w-300 d-flex justify-content-center m-b-0 ">
                                             { 
                                                 this.props.dashboardinfo.map(function(total){
                                                     
                                                      if(total.roleid == PROFESOR){ return   total.usercount }                                     
                                                 })                                                                                          
                                             }
-                                        </h1>
+                                        </h2>
                                     </div>
                                 </div>    
                                 
@@ -91,25 +91,19 @@ class Dashboard extends React.Component {
                     <Col md={4} xl={4}>
                         <Card>
                             <Card.Body>
-                                <h6 className='mb-4'>Estudiantes</h6>
+                                <h6 className='mb-4'>Alumnos</h6>
                                 <div className="row d-flex align-items-center">
                                     <div className="col-9">
-                                        <h3 className="f-w-300 d-flex align-items-center m-b-0"><i className="feather icon-arrow-down text-c-red f-30 m-r-5"/> 
+                                        <h2 className="text-center f-w-300 d-flex justify-content-center m-b-0 ">
                                         {                                             
                                             this.props.dashboardinfo.map(function(total){                                                
                                                  if(total.roleid == ALUMNO){ return   total.usercount }                                     
                                             })                                                                                                                                                                                                                           
                                         }
-                                        </h3>
-                                    </div>
-
-                                    <div className="col-3 text-right">
-                                        <p className="m-b-0">36%</p>
+                                        </h2>
                                     </div>
                                 </div>
-                                <div className="progress m-t-30" style={{height: '7px'}}>
-                                    <div className="progress-bar progress-c-theme2" role="progressbar" style={{width: '35%'}} aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"/>
-                                </div>
+                                
                             </Card.Body>
                         </Card>
                     </Col>
@@ -119,22 +113,17 @@ class Dashboard extends React.Component {
                                 <h6 className='mb-4'>Coordinadores</h6>
                                 <div className="row d-flex align-items-center">
                                     <div className="col-9">
-                                    <h3 className="f-w-300 d-flex align-items-center m-b-0"><i className="feather icon-arrow-up text-c-green f-30 m-r-5"/>
+                                    <h2 className="text-center f-w-300 d-flex justify-content-center m-b-0 ">
                                     {                                             
                                         this.props.dashboardinfo.map(function(total){                                                
                                                 if(total.roleid == COORDINADOR){ return   total.usercount }else{ return 0}                                     
                                         })                                                                                                                                                                                                                           
                                     }                                    
-                                    </h3>
+                                    </h2>
                                     </div>
+                               
+                                </div>
 
-                                    <div className="col-3 text-right">
-                                        <p className="m-b-0">70%</p>
-                                    </div>
-                                </div>
-                                <div className="progress m-t-30" style={{height: '7px'}}>
-                                    <div className="progress-bar progress-c-theme" role="progressbar" style={{width: '70%'}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"/>
-                                </div>
                             </Card.Body>
                         </Card>
                     </Col>                                                                                                        
