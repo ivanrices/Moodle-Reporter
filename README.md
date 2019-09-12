@@ -4,18 +4,18 @@ Esta aplicacion  se conecta a cualquier base de datos de moodle para obtener, fi
 
 Los reportes que esta aplicacion obtiene estan en PDF y CSV:
 
-####Dashboard: 
+#### Dashboard: 
 + muestra cantidad de alumnos, profesores y administradores de moodle
 + cantidad total de cursos.
 + Grafico de alumnos por curso
 + Grafico de actividad por parte de los alumnos en cada curso
 
 
-####Alumnos:
+#### Alumnos:
 + total de alumnos enrolados a cursos, filtrados por curso
 + Descripcion de cuantas y el tipo de interacciones que tuvo el alumno con cada curso.
 
-####Profesores
+#### Profesores
 + Total de profesores enrolados a cursos, filtrados por curso
 + Descripcion de cuantas y el tipo de interacciones que tuvo el alumno con cada curso.
 
