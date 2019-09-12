@@ -1,27 +1,30 @@
-# Slim Framework 3 Skeleton Application
+# Moodel reporter app (En desarrollo)
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.
+Esta aplicacion  se conecta a cualquier base de datos de moodle para obtener, filtrar y mostrar reportes que no pueden ser obtenidos en moodle.
 
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
+Los reportes que esta aplicacion obtiene estan en PDF y CSV:
 
-## Install the Application
+####Dashboard: 
++ muestra cantidad de alumnos, profesores y administradores de moodle
++ cantidad total de cursos.
++ Grafico de alumnos por curso
++ Grafico de actividad por parte de los alumnos en cada curso
 
-Run this command from the directory in which you want to install your new Slim Framework application.
 
-    php composer.phar create-project slim/slim-skeleton [my-app-name]
+####Alumnos:
++ total de alumnos enrolados a cursos, filtrados por curso
++ Descripcion de cuantas y el tipo de interacciones que tuvo el alumno con cada curso.
 
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
+####Profesores
++ Total de profesores enrolados a cursos, filtrados por curso
++ Descripcion de cuantas y el tipo de interacciones que tuvo el alumno con cada curso.
 
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writeable.
 
-To run the application in development, you can run these commands 
+Hecho con:
 
-	cd [my-app-name]
-	php composer.phar start
+* Slim Php 3 
+  - /public/index
+  - base de datos: /src/config/database.php
+  - routes: /src/routes/
 
-Run this command in the application directory to run the test suite
-
-	php composer.phar test
-
-That's it! Now go build something cool.
+* React v16, con redux /development/view/

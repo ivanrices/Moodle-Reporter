@@ -1,6 +1,7 @@
 <?php
 //Configuracion de mysql
 class database{
+    //example connection
     private $dbHost = "localhost";
     private $dbUser = "root";
     private $dbPass = "";
