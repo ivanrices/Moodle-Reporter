@@ -10,15 +10,18 @@ Los reportes que esta aplicacion obtiene estan en PDF y CSV:
 + Grafico de alumnos por curso
 + Grafico de actividad por parte de los alumnos en cada curso
 
+![](https://raw.githubusercontent.com/ivanrices/Moodle-Reporter/master/assets/dashboard.png)
+
 
 #### Alumnos:
 + total de alumnos enrolados a cursos, filtrados por curso
 + Descripcion de cuantas y el tipo de interacciones que tuvo el alumno con cada curso.
+![](https://raw.githubusercontent.com/ivanrices/Moodle-Reporter/master/assets/alumnos.png)
 
 #### Profesores
 + Total de profesores enrolados a cursos, filtrados por curso
 + Descripcion de cuantas y el tipo de interacciones que tuvo el alumno con cada curso.
-
+![](https://raw.githubusercontent.com/ivanrices/Moodle-Reporter/master/assets/profesores.png)
 
 Hecho con:
 
