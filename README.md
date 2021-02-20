@@ -1,5 +1,16 @@
 # Moodel reporter app (En desarrollo)
 
+## Hecho con:
+
+* Slim Php 3 
+  - /public/index
+  - base de datos: /src/config/database.php
+  - routes: /src/routes/
+
+* React v16 /development/view/
+  - redux, middlewares
+  - routes
+
 Esta aplicacion  se conecta a cualquier base de datos de moodle para obtener, filtrar y mostrar reportes que no pueden ser obtenidos en moodle.
 
 Los reportes que esta aplicacion obtiene estan en PDF y CSV:
@@ -23,13 +34,4 @@ Los reportes que esta aplicacion obtiene estan en PDF y CSV:
 + Descripcion de cuantas y el tipo de interacciones que tuvo el alumno con cada curso.
 ![](https://raw.githubusercontent.com/ivanrices/Moodle-Reporter/master/assets/profesores.png)
 
-Hecho con:
 
-* Slim Php 3 
-  - /public/index
-  - base de datos: /src/config/database.php
-  - routes: /src/routes/
-
-* React v16 /development/view/
-  - redux, middlewares
-  - routes
