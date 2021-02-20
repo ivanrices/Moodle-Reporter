@@ -10,7 +10,8 @@
 * React v16 /development/view/
   - redux, middlewares
   - routes
-
+  - 
+## Descripcion
 Esta aplicacion  se conecta a cualquier base de datos de moodle para obtener, filtrar y mostrar reportes que no pueden ser obtenidos en moodle.
 
 Los reportes que esta aplicacion obtiene estan en PDF y CSV:
