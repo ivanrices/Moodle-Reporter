@@ -8,9 +8,9 @@
   - routes: /src/routes/
 
 * React v16 /development/view/
-  - redux, middlewares
-  - routes
-  - 
+  - Redux thunk
+  - Routes
+  
 ## Descripcion
 Esta aplicacion  se conecta a cualquier base de datos de moodle para obtener, filtrar y mostrar reportes que no pueden ser obtenidos en moodle.
 
